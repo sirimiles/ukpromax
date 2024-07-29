@@ -1,0 +1,103 @@
+/* Large Devices (1200px screen size)*/
+@media (max-width: 1200px) {
+  /* Header Section */
+  header nav img {
+    width: 100px;
+    margin-left: 20px;
+  }
+  header nav ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0px 50px;
+  }
+  /* Product Showcase Section */
+  #products {
+    padding: 50px 60px;
+    text-align: center;
+    margin: 0px 100px;
+  }
+}
+/* Medium Devices(992px screen size) */
+@media (max-width: 992px) {
+  /* Product Showcase Section */
+  #products {
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0px 10px;
+  }
+}
+/* Small Landscape Devices (765px Screen size) */
+@media (max-width: 768px) {
+  /* Product Showcase Section */
+  #products {
+    padding: 30px 20px;
+    text-align: center;
+    margin: 0px 10px;
+  }
+
+  .product-item {
+    flex: 1;
+    margin: 20px;
+    min-width: 150px;
+    text-align: center;
+  }
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* Smaller Landscape Devices (576px Screen size) */
+@media (max-width: 576px) {
+  /* Header Section */
+  header nav img {
+    width: 90px;
+    margin-left: 10px;
+  }
+
+  header nav ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+/* Smaller Portrait Devices (375px Screen size) */
+@media (max-width: 375px) {
+  header nav img {
+    margin-left: 10px;
+  }
+  header {
+    align-items: left;
+    justify-content: left;
+  }
+  header nav ul li {
+    margin-left: 0px;
+  }
+
+  header nav ul {
+    padding: 0;
+    display: flex;
+    gap: 2px;
+    font-size: 5px;
+    margin-right: 10px;
+  }
+  header nav ul li {
+    margin-left: 0px;
+    padding: 0;
+  }
+
+  /* Product showcase Section  */
+
+  .product-item {
+    flex: 1;
+    margin: 20px;
+    min-width: 80px;
+    text-align: center;
+  }
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+}

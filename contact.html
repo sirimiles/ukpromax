@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Landing Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADING/NAVIGATION SECTION -->
+    <header>
+      <nav>
+        <img src="logo.PNG" alt />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="signinSignup.html"
+              ><i class="fa-solid fa-user" style="color: #ffffff"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#magnify"
+              ><i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #ffffff"
+              ></i
+            ></a>
+          </li>
+          <li>
+            <a href="#cart"
+              ><i class="fa-solid fa-cart-shopping" style="color: #fcfcfc"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <div class="contact-info">
+          <h1>Contact Us</h1>
+          <p>
+            If you have any questions or need support, please reach out to us
+            using the form below or through the contact details provided.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:support@example.com">support@example.com</a>
+              </p>
+            </div>
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+            <div class="contact-item">
+              <h3>Address</h3>
+              <p>123 Main Street, Suite 456<br />City, State, ZIP</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <!-- Footer Section -->
+      <footer>
+        <div class="footer-content">
+          <a href="#" class="logo"> <img src="logo.PNG" alt="" /></a>
+          <div class="footer-links">
+            <a href="index.html">Features</a>
+            <a href="index.html">Products</a>
+            <a href="index.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <p>&copy; 2024 UKAY. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
